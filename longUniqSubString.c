@@ -7,7 +7,7 @@ void longUniqSubString(char string[])
     char substring[100];
     int c=0,k=0;
     
-    //The longest substring is one with one char less than the main string
+    //The longest substring is one with atleast one char less than the main string
     //Now check if the remaining char in the string are unique.
     // Print the longest unique substring
     

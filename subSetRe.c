@@ -99,8 +99,8 @@ void findSubset(int set[],int k)
     int arr[100][100];
     int **mat;
     int m=0;
-    digit=16;
-    //digit = pow(2,n);
+    
+    digit = pow(2,n);
     y= digit/2;
    
     //Fining the possible combinations through truth table.  
